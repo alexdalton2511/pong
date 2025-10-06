@@ -1,0 +1,21 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore MonoGame Content Pipeline build cache
+**/Content/bin/
+**/Content/obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Mac/Linux system files
+.DS_Store
+Thumbs.db
