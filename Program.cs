@@ -1,11 +1,11 @@
 ﻿
-using Game1 = Pong.Game1;
+using Pong;
 
 class Program
 {
     static void Main(string[] args)
     {
-        var game = new Game1();
+        var game = new PongGame();
         game.Run();
     }
 }
