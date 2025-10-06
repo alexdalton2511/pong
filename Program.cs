@@ -1,5 +1,5 @@
 ﻿
-using Pong;
+using PongGame = Pong.PongGame;
 
 class Program
 {

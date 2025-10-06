@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pong", "Pong.csproj", "{C9B1B099-F565-4D0C-A33F-631F95993CC9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9BAD1CB-3C69-491C-9C0F-CAD445E79D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "src\Base\Base.csproj", "{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics", "src\Physics\Physics.csproj", "{CF797113-BB96-4F9D-B97B-FC1BCF02F65F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{C9B1B099-F565-4D0C-A33F-631F95993CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9B1B099-F565-4D0C-A33F-631F95993CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9B1B099-F565-4D0C-A33F-631F95993CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF797113-BB96-4F9D-B97B-FC1BCF02F65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF797113-BB96-4F9D-B97B-FC1BCF02F65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF797113-BB96-4F9D-B97B-FC1BCF02F65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF797113-BB96-4F9D-B97B-FC1BCF02F65F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F34BC66-BA5B-48CD-BC36-58C4E8F5289D} = {F9BAD1CB-3C69-491C-9C0F-CAD445E79D6C}
+		{CF797113-BB96-4F9D-B97B-FC1BCF02F65F} = {F9BAD1CB-3C69-491C-9C0F-CAD445E79D6C}
 	EndGlobalSection
 EndGlobal
